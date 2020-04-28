@@ -20,12 +20,10 @@ class GetRequester
 
   def parse_json
     JSON.parse(get_response_body)
-      parse.collect do |body|
-        parse[" "]
-      end
+  end
     #use get_response_body to send a request, then return a Ruby Array or
     #Hash made up of data converted from the response of that request
-  end
+end
 
 
 end
