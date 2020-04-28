@@ -11,7 +11,7 @@ class GetRequester
   URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
 
   def get_response_body
-    uri = URI.parse(URL)
+    uri = URI.parse(@url)
     response = NET::HTTP.get_response_body(uri)
     response.body
     #sends a GET request to the URL passed in on initialization. This method
