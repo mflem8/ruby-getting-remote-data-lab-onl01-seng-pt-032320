@@ -12,10 +12,10 @@ class GetRequester
     #should return the body of the response
   end
 
-  def parse_json 
+  def parse_json
     #use get_response_body to send a request, then return a Ruby Array or
     #Hash made up of data converted from the response of that request
   end
-  
+
 
 end
